@@ -10,21 +10,21 @@
   <div class="flex flex-col items-center mt-4">
     <router-link
       v-if="route.name === 'todoList'"
-      class="btn-primary"
+      class=""
       :to="{ name: 'about' }"
     >
-      About TodoList
+      
     </router-link>
     <router-link
       v-if="route.name === 'about'"
-      class="btn-primary"
+      class=""
       :to="{ name: 'todoList' }"
     >
       TodoList
     </router-link>
 
     <p class="mt-2 text-sm text-zinc-500">
-      Copyright &copy; {{ year }} eyvindove reserved.
+      
     </p>
   </div>
 </template>

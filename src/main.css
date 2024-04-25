@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Times new roman', cursive;
   }
 }
 
@@ -16,7 +16,7 @@
   }
 
   .page-wrapper {
-    @apply p-4 bg-slate-200 rounded-lg shadow;
+    @apply p-4 bg-slate-50 rounded-lg shadow;
   }
 
   .btn-primary {

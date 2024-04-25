@@ -171,7 +171,7 @@
         <div
           v-for="item in filteredTodoList"
           :key="item.id"
-          class="relative mt-2 px-4 py-2 bg-slate-300 rounded cursor-pointer"
+          class="relative mt-2 px-4 py-2 bg-grey-300 rounded cursor-pointer"
           :class="{ 'text-slate-500': item.status === 'done' }"
           @click="toggleStatus(item)"
         >
